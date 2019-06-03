@@ -1,12 +1,16 @@
-﻿using System;
-
+﻿// A Hello World! program in C#.
+using System;
 namespace HelloWorld
 {
-    class Program
+    class Hello
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World!");
+
+            // Keep the console window open in debug mode.
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 }
